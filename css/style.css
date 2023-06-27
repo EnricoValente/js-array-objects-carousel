@@ -13,9 +13,10 @@
 
 .image-item {
     width:800px;
-    height: 450px;
+    height: 400px;
     margin: 0 auto;
     display: none;
+    
 
 }
 
@@ -49,7 +50,7 @@
 .images-text {
     position: absolute;
     bottom: 60px;
-    right:5%;
+    
     
 }
 
@@ -57,3 +58,7 @@ h3 {
     color: white;
 }
     
+
+p {
+    color: white;
+}
