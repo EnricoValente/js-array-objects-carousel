@@ -19,7 +19,7 @@
 
 }
 
-.active {
+.image-item.active {
     display: block;
     
 }
