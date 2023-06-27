@@ -116,7 +116,41 @@ carouselContent.forEach((object, i) => {
 });
 
 
+const upButton = document.querySelector('.up');
 
+
+let counter = 0;
+
+const allObjects = document.querySelectorAll('.image-item');
+
+upButton.addEventListener('click', function() {
+
+     if (counter < 4 ) {
+        allObjects[counter].classList.remove('active');
+        counter++;
+        allObjects[counter].classList.add('active');
+
+     }
+    
+})
+
+
+
+
+const downButton = document.querySelector('.down');
+            
+          
+          
+downButton.addEventListener('click', function() {
+
+     if (counter > 0 ) {
+        allObjects[counter].classList.remove('active');
+        counter--;
+        allObjects[counter].classList.add('active');
+
+     }
+    
+})
 
 
 
